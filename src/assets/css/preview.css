@@ -1,0 +1,43 @@
+.preview {
+    margin-top: 30px;
+}
+
+.preview-content {
+    max-width: 616px;
+    margin: 0 auto;
+}
+
+.fio {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.child {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+    margin-top: 60px;
+}
+
+.child-info {
+    background: #F1F1F1;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.alignment {
+    display: flex;
+    flex-direction: column;
+}

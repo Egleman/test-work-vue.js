@@ -1,0 +1,27 @@
+.header {
+    height: 76px;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+}
+.header-content {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-btn {
+    display: flex;
+    align-items: center;
+    color: #11111183;
+}
+.header-btn a{
+    padding-right: 24px;
+    color: rgba(17, 17, 17, 0.48);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
