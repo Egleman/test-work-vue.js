@@ -1,7 +1,7 @@
 <template>
     <section class="preview">
         <div class="preview-content">
-            <p class="persone-data" @click="logger">Персональные данные</p>
+            <p class="persone-data">Персональные данные</p>
             <p class="fio" v-if="isEmpty()">{{users.surname}} {{users.name}} {{users.patronymic}}, {{users.age}} {{declOfNum(users.age, ['год', 'года', 'лет'])}}</p>
             <p class="child">Дети</p>
             <div v-if="isEmpty()">
@@ -25,9 +25,6 @@ export default {
         }
     },
     methods: {
-        logger() {
-            console.log(this.users);
-        },
         isEmpty() {
             return Object.keys(this.users).length;
         },
