@@ -12,15 +12,3 @@ const store = new Vuex.Store({
 })
 
 export default store;
-
-// export default createStore({
-//   state: {
-//   },
-//   mutations: {
-//   },
-//   actions: {
-//   },
-//   modules: {
-//     users
-//   }
-// })
